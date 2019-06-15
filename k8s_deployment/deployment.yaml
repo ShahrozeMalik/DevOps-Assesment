@@ -1,0 +1,18 @@
+---
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: NodeApp
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        name: NodeApp
+    spec:
+      containers:
+      - name:  nodeApp
+        image: shahrozemalik/nodeapp:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 9000
