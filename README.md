@@ -1,6 +1,6 @@
 # DevOps Assesment
 
-It is sample node app which consists of some deployment files. Following are the tools whose deployment files are available.
+It is sample node app which also contains it's deployment files. Configurations for the following tools are available.
 
   - Docker.
   - Kubernetes.
