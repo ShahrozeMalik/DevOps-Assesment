@@ -16,8 +16,8 @@ Following tools and technologies are required to be set up on your system in ord
 
 # Instructions for docker deployment!
 
-  - Run Dokcerfile here (docker build -t <image name>:tag .) which creates an image of the node app.
-  - To run the app just type docker run <image name>.
+  - Run Dokcerfile here (docker build -t (image name):tag .) which creates an image of the node app.
+  - To run the app just type docker run (image name).
   - You can access this app on browser at port 9000.
 
 # OR
